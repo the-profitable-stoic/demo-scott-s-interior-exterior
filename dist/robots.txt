@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://demo-scott-s-interior-exterior.dream-surge.com/sitemap-index.xml

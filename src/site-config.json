@@ -1,0 +1,579 @@
+{
+  "business": {
+    "name": "Scott's Interior & Exterior",
+    "phone": "+15023677881",
+    "category": "house painter",
+    "city": "Louisville",
+    "state": "KY"
+  },
+  "design": {
+    "preset": {
+      "id": "roofing-heritage-craft",
+      "categoryGroup": "roofing",
+      "name": "Heritage Craft",
+      "recipeFile": "roofing/heritage-craft.astro",
+      "colors": {
+        "primary": "#3D2E1F",
+        "primaryDark": "#251A10",
+        "primaryLight": "#D4C5B0",
+        "secondary": "#5C4A3A",
+        "accent": "#6B5335",
+        "background": "#F5F2ED",
+        "backgroundAlt": "#5C4A3A",
+        "surface": "#EDEAE4",
+        "text": "#1A1510",
+        "textLight": "#4A4540",
+        "textOnDark": "#F5F2ED",
+        "border": "#D5CEBC"
+      },
+      "typography": {
+        "headingFont": "Playfair Display",
+        "headingWeight": "600",
+        "bodyFont": "Libre Franklin",
+        "bodyWeight": "400",
+        "headingStyle": "normal",
+        "scale": "1.25"
+      },
+      "shape": {
+        "borderRadius": "4px",
+        "buttonRadius": "4px",
+        "cardRadius": "6px",
+        "shadowStyle": "subtle"
+      },
+      "sections": {
+        "heroStyle": "dark",
+        "sectionAlternation": [
+          "light",
+          "surface",
+          "light",
+          "surface",
+          "light"
+        ],
+        "animationStyle": "fade",
+        "spacingScale": "generous"
+      }
+    },
+    "recipeId": "roofing/heritage-craft"
+  },
+  "content": {
+    "homepage": {
+      "heroHeadline": "Louisville's Painting Pros",
+      "heroSubline": "Transforming homes with quality and precision. Interior and exterior painting services you can trust.",
+      "aboutTitle": "Decades of Dedicated Service in Louisville",
+      "aboutText": [
+        "Scott's Interior & Exterior started with a simple goal: to provide Louisville homeowners with painting services that exceed expectations. We've been painting homes across Jefferson County for over a decade, building a reputation for quality and reliability.",
+        "Our approach is straightforward: meticulous preparation, premium materials, and skilled craftsmanship. We treat every home as if it were our own, ensuring flawless results and lasting beauty. We believe in clear communication, honest pricing, and a commitment to customer satisfaction.",
+        "We're proud to be a part of the Louisville community. From Old Louisville's historic homes to the modern developments in the East End, we're committed to enhancing the beauty and value of our city, one brushstroke at a time."
+      ],
+      "valueProps": [
+        {
+          "title": "Expert Craftsmanship",
+          "description": "Skilled painters delivering exceptional results with attention to detail."
+        },
+        {
+          "title": "Premium Materials",
+          "description": "Using only high-quality paints and supplies for lasting durability and beauty."
+        },
+        {
+          "title": "Reliable Service",
+          "description": "Punctual, professional, and committed to completing projects on time and within budget."
+        },
+        {
+          "title": "Local Expertise",
+          "description": "Understanding Louisville's unique climate and housing styles to provide tailored solutions."
+        }
+      ],
+      "ctaHeadline": "Ready for a Fresh Coat?",
+      "ctaSubline": "Get a free quote and discover how Scott's Interior & Exterior can transform your Louisville home."
+    },
+    "services": [
+      {
+        "slug": "interior-painting",
+        "name": "Interior Painting",
+        "shortDescription": "Transform your living space with our expert interior painting services.",
+        "description": "Revitalize your Louisville home's interior with Scott's Interior & Exterior's professional painting services. We handle everything from surface preparation to the final coat, ensuring a flawless finish that enhances your living space. Our team understands the nuances of different paint types and application techniques, providing tailored solutions for every room in your home. We meticulously prepare surfaces, addressing imperfections and ensuring proper adhesion for a long-lasting, beautiful result.\n\nWhether you're looking to update a single room or repaint your entire house, we'll work with you to choose the perfect colors and finishes to match your style and needs. We use only premium paints that are durable, washable, and resistant to fading, ensuring your investment lasts for years to come. We protect your furniture and belongings, and we leave your home clean and tidy after the job is complete.\n\nLouisville homes, particularly older ones in neighborhoods like the Highlands and Old Louisville, often require special attention due to plaster walls and unique architectural details. We have the experience and expertise to handle these challenges, providing expert care and attention to detail that ensures a beautiful and lasting finish.",
+        "process": [
+          "Step 1: Consultation and Color Selection",
+          "Step 2: Surface Preparation (cleaning, patching, sanding)",
+          "Step 3: Priming (if necessary)",
+          "Step 4: Application of Paint (two coats for optimal coverage)",
+          "Step 5: Final Inspection and Cleanup"
+        ],
+        "benefits": [
+          "Enhance the beauty and value of your home",
+          "Create a fresh and inviting living space",
+          "Protect your walls from wear and tear",
+          "Increase your home's resale value"
+        ],
+        "faq": [
+          {
+            "question": "How long does interior painting typically take?",
+            "answer": "The duration depends on the size and complexity of the project, but we strive to complete most interior painting jobs within 2-5 days. We'll provide a detailed timeline during the consultation."
+          },
+          {
+            "question": "Do I need to move my furniture?",
+            "answer": "We recommend removing small items and valuables. Our team will carefully cover and protect your larger furniture during the painting process."
+          },
+          {
+            "question": "What type of paint do you use?",
+            "answer": "We use premium-quality paints from trusted brands like Sherwin-Williams and Benjamin Moore, known for their durability, coverage, and color retention."
+          }
+        ]
+      },
+      {
+        "slug": "exterior-painting",
+        "name": "Exterior Painting",
+        "shortDescription": "Protect and beautify your home with our professional exterior painting services.",
+        "description": "Scott's Interior & Exterior provides comprehensive exterior painting services to protect and enhance your Louisville home. We understand the unique challenges posed by Kentucky's climate, from hot, humid summers to cold, wet winters. Our team uses durable, weather-resistant paints and proven techniques to ensure a long-lasting finish that withstands the elements.\n\nWe begin with a thorough inspection of your home's exterior, identifying any areas of damage or deterioration. We then prepare the surfaces by power washing, scraping, and sanding to ensure proper adhesion. We prime all bare wood and metal surfaces to prevent rust and rot. We use high-quality paints specifically designed for exterior use, providing superior protection against fading, cracking, and peeling.\n\nWhether your home is brick, siding, or wood, we have the expertise to handle any type of exterior surface. We'll work with you to choose the perfect colors and finishes to complement your home's architecture and style. Many homes in Louisville have limestone foundations that require proper sealing and painting. We understand these considerations and will make sure your house looks great and is protected for years to come.",
+        "process": [
+          "Step 1: Power Washing and Surface Cleaning",
+          "Step 2: Scraping and Sanding Loose Paint",
+          "Step 3: Repairing Damaged Areas (wood rot, cracks)",
+          "Step 4: Priming Bare Wood and Metal",
+          "Step 5: Application of Exterior Paint (two coats)"
+        ],
+        "benefits": [
+          "Protect your home from the elements",
+          "Enhance your home's curb appeal",
+          "Increase your home's value",
+          "Prevent costly repairs down the road"
+        ],
+        "faq": [
+          {
+            "question": "How often should I repaint my home's exterior?",
+            "answer": "Generally, you should repaint your home's exterior every 5-10 years, depending on the type of siding and the climate conditions. We can provide a more specific recommendation based on your home's condition."
+          },
+          {
+            "question": "Do you offer color consultations for exterior painting?",
+            "answer": "Yes, we offer color consultations to help you choose the perfect colors for your home's exterior. We can provide samples and visualize different color schemes to help you make the best decision."
+          },
+          {
+            "question": "What type of paint do you use for exterior painting?",
+            "answer": "We use high-quality exterior paints from trusted brands like Sherwin-Williams and Benjamin Moore, specifically formulated to withstand the harsh weather conditions in Louisville."
+          }
+        ]
+      },
+      {
+        "slug": "cabinet-painting",
+        "name": "Cabinet Painting",
+        "shortDescription": "Give your kitchen a fresh, new look with our professional cabinet painting services.",
+        "description": "Transform your kitchen or bathroom without the expense of replacing your cabinets. Scott's Interior & Exterior offers professional cabinet painting services that can revitalize your space and give it a modern, updated look. We meticulously prepare your cabinets, ensuring a smooth and durable finish that will last for years to come.\n\nOur process begins with removing all hardware and thoroughly cleaning the cabinet surfaces. We then sand and prime the cabinets to create a smooth, even base for the paint. We use high-quality paints specifically designed for cabinets, providing a durable and washable finish that resists chipping and scratching. We apply multiple coats of paint for optimal coverage and protection.\n\nWhether you're looking to update your kitchen cabinets with a fresh coat of white paint or add a pop of color to your bathroom vanity, we can help you achieve your vision. We work with a variety of paint colors and finishes to match your style and needs. We also offer cabinet hardware replacement services to further enhance the look of your space. Many Louisville homes have older cabinets that can be refreshed rather than spending more for replacement.",
+        "process": [
+          "Step 1: Removal of Hardware and Cleaning",
+          "Step 2: Sanding and Priming",
+          "Step 3: Application of Cabinet Paint (multiple coats)",
+          "Step 4: Reinstallation of Hardware",
+          "Step 5: Final Inspection and Cleanup"
+        ],
+        "benefits": [
+          "Transform your kitchen or bathroom at a fraction of the cost of replacement",
+          "Update your space with a modern, stylish look",
+          "Increase the value of your home",
+          "Choose from a wide variety of colors and finishes"
+        ],
+        "faq": [
+          {
+            "question": "How long does cabinet painting take?",
+            "answer": "Cabinet painting typically takes 3-5 days, depending on the size and complexity of the project. We'll provide a more specific timeline during the consultation."
+          },
+          {
+            "question": "Can you paint cabinets that have a laminate or veneer finish?",
+            "answer": "Yes, we can paint cabinets with laminate or veneer finishes. We use specialized primers and paints that are designed to adhere to these surfaces."
+          },
+          {
+            "question": "Do I need to empty my cabinets before you start painting?",
+            "answer": "Yes, we ask that you empty your cabinets before we begin the painting process."
+          }
+        ]
+      },
+      {
+        "slug": "deck-staining-sealing",
+        "name": "Deck Staining & Sealing",
+        "shortDescription": "Protect and beautify your deck with our professional staining and sealing services.",
+        "description": "Extend the life of your Louisville deck with Scott's Interior & Exterior's professional staining and sealing services. Kentucky's weather can be harsh on decks, causing them to fade, crack, and rot. Our team uses high-quality stains and sealants to protect your deck from the elements and keep it looking its best for years to come.\n\nWe begin by thoroughly cleaning your deck to remove dirt, mildew, and old stain. We then sand any rough areas and repair any damaged boards. We apply a sealant to protect the wood from moisture and UV damage. We finish with a stain that enhances the natural beauty of the wood and provides additional protection.\n\nWhether you're looking to refresh your existing deck or protect a new one, we can help you choose the perfect stain and sealant to meet your needs. We offer a variety of colors and finishes to match your style and preferences. Scott's Interior & Exterior extends the life of your deck with quality products and service.",
+        "process": [
+          "Step 1: Deck Cleaning and Preparation",
+          "Step 2: Sanding Rough Areas and Repairs",
+          "Step 3: Application of Deck Sealant",
+          "Step 4: Application of Deck Stain (multiple coats)",
+          "Step 5: Final Inspection and Cleanup"
+        ],
+        "benefits": [
+          "Protect your deck from the elements",
+          "Extend the life of your deck",
+          "Enhance the beauty of your outdoor space",
+          "Prevent costly repairs down the road"
+        ],
+        "faq": [
+          {
+            "question": "How often should I stain and seal my deck?",
+            "answer": "Generally, you should stain and seal your deck every 2-3 years, depending on the type of wood and the weather conditions. We can provide a more specific recommendation based on your deck's condition."
+          },
+          {
+            "question": "What type of stain and sealant do you use?",
+            "answer": "We use high-quality stains and sealants from trusted brands like Cabot and Thompson's WaterSeal, specifically formulated for exterior use."
+          },
+          {
+            "question": "Do I need to remove my furniture from the deck before you start?",
+            "answer": "Yes, we ask that you remove your furniture from the deck before we begin the staining and sealing process."
+          }
+        ]
+      },
+      {
+        "slug": "drywall-repair",
+        "name": "Drywall Repair",
+        "shortDescription": "Seamless drywall repairs to restore your walls to their original condition.",
+        "description": "From small holes to larger damage, Scott's Interior & Exterior provides expert drywall repair services to restore your walls to their original condition. We understand that damaged drywall can be unsightly and can also lead to further problems if left unaddressed. Our team has the skills and experience to seamlessly repair any type of drywall damage.\n\nWe begin by carefully assessing the damage and determining the best course of action. We then remove any loose or damaged drywall and patch the area with new drywall. We tape and mud the seams, ensuring a smooth, even finish. We sand the patched area and prime it for painting. Finally, we paint the repaired area to match the surrounding walls.\n\nWhether you have a small nail hole or a large hole from water damage, we can help you restore your walls to their original condition. We use high-quality materials and proven techniques to ensure a durable and long-lasting repair. Many Louisville homes settle over time, leading to cracks in the drywall. We are experienced in handling these types of repairs.",
+        "process": [
+          "Step 1: Damage Assessment",
+          "Step 2: Removal of Damaged Drywall",
+          "Step 3: Patching with New Drywall",
+          "Step 4: Taping and Mudding Seams",
+          "Step 5: Sanding and Priming",
+          "Step 6: Painting to Match Surroundings"
+        ],
+        "benefits": [
+          "Restore your walls to their original condition",
+          "Prevent further damage",
+          "Improve the appearance of your home",
+          "Increase the value of your home"
+        ],
+        "faq": [
+          {
+            "question": "How long does drywall repair take?",
+            "answer": "Drywall repair typically takes 1-2 days, depending on the size and complexity of the repair. We'll provide a more specific timeline during the consultation."
+          },
+          {
+            "question": "Do I need to move my furniture away from the area being repaired?",
+            "answer": "Yes, we ask that you move your furniture away from the area being repaired to protect it from dust and debris."
+          },
+          {
+            "question": "Will the repaired area be noticeable after painting?",
+            "answer": "No, if done correctly, the repaired area should be seamless and unnoticeable after painting. We take great care to blend the repaired area with the surrounding walls."
+          }
+        ]
+      },
+      {
+        "slug": "wallpaper-removal",
+        "name": "Wallpaper Removal",
+        "shortDescription": "Safely and effectively remove old wallpaper to prepare your walls for painting.",
+        "description": "Removing old wallpaper can be a challenging and time-consuming task. Scott's Interior & Exterior offers professional wallpaper removal services to safely and effectively remove old wallpaper and prepare your walls for painting. We have the tools and expertise to remove any type of wallpaper without damaging your walls.\n\nWe begin by scoring the wallpaper to allow the removal solution to penetrate. We then apply a wallpaper removal solution to loosen the adhesive. We carefully peel off the wallpaper, taking care not to damage the underlying drywall. We remove any remaining adhesive and smooth the walls. Finally, we prime the walls for painting.\n\nWhether you have a single room or an entire house full of wallpaper, we can help you remove it quickly and efficiently. We use safe and effective methods to protect your walls and ensure a smooth, paint-ready surface. Many older homes in Louisville have layers of wallpaper that can be difficult to remove.",
+        "process": [
+          "Step 1: Scoring the Wallpaper",
+          "Step 2: Applying Wallpaper Removal Solution",
+          "Step 3: Peeling Off Wallpaper",
+          "Step 4: Removing Remaining Adhesive",
+          "Step 5: Smoothing and Priming Walls"
+        ],
+        "benefits": [
+          "Save time and effort",
+          "Avoid damaging your walls",
+          "Prepare your walls for painting",
+          "Ensure a smooth, paint-ready surface"
+        ],
+        "faq": [
+          {
+            "question": "How long does wallpaper removal take?",
+            "answer": "Wallpaper removal typically takes 1-3 days, depending on the size of the room and the type of wallpaper. We'll provide a more specific timeline during the consultation."
+          },
+          {
+            "question": "Will wallpaper removal damage my walls?",
+            "answer": "We take great care to remove wallpaper without damaging your walls. However, in some cases, minor damage may occur. We will repair any damage before priming and painting."
+          },
+          {
+            "question": "Do I need to do anything to prepare for wallpaper removal?",
+            "answer": "Yes, we ask that you remove any furniture and valuables from the room before we begin the wallpaper removal process."
+          }
+        ]
+      }
+    ],
+    "serviceAreas": [
+      {
+        "city": "Louisville",
+        "slug": "louisville-ky",
+        "state": "KY",
+        "content": "Scott's Interior & Exterior is proud to provide professional painting services to the residents and businesses of Louisville, Kentucky. From historic homes in Old Louisville to modern condos downtown, we have the experience and expertise to handle any painting project, big or small. We understand the unique architectural styles and challenges that Louisville properties present, and we are committed to delivering exceptional results that enhance the beauty and value of your home or business.\n\nOur team of skilled painters uses only the highest quality paints and materials to ensure a long-lasting and beautiful finish. We offer a wide range of services, including interior and exterior painting, cabinet refinishing, drywall repair, and pressure washing. We are fully licensed and insured, and we stand behind our work with a satisfaction guarantee. Contact Scott's Interior & Exterior today for a free estimate and let us help you transform your Louisville property.",
+        "localContext": "Louisville is known for its vibrant arts scene, bourbon distilleries, and the Kentucky Derby. We take pride in contributing to the beauty of this dynamic city, one brushstroke at a time.",
+        "nearbyAreas": [
+          "Jeffersontown",
+          "Shively",
+          "St. Matthews"
+        ]
+      },
+      {
+        "city": "Jeffersontown",
+        "slug": "jeffersontown-ky",
+        "state": "KY",
+        "content": "Scott's Interior & Exterior brings its top-notch painting services to Jeffersontown, KY. We understand the needs of homeowners and business owners in J-Town, from refreshing the exterior of a classic brick home to updating the interior of a commercial space. Our commitment to quality and customer satisfaction sets us apart.\n\nWe offer a comprehensive range of painting services in Jeffersontown, including color consultation, surface preparation, and meticulous application of premium paints. We take pride in our attention to detail and our ability to transform your space into a beautiful and inviting environment. Contact us today for a free quote.",
+        "localContext": "Jeffersontown is a thriving community known for its blend of residential charm and commercial activity. We are happy to serve the painting needs of this flourishing area.",
+        "nearbyAreas": [
+          "Louisville",
+          "Middletown",
+          "Buechel"
+        ]
+      },
+      {
+        "city": "Shively",
+        "slug": "shively-ky",
+        "state": "KY",
+        "content": "Scott's Interior & Exterior is dedicated to providing exceptional painting services to the residents and businesses of Shively, Kentucky. We have years of experience working on a variety of properties in the area, from cozy bungalows to industrial buildings. We understand the specific needs and preferences of our Shively clients.\n\nOur team of professional painters is committed to delivering outstanding results that exceed your expectations. We use only top-quality paints and materials to ensure a long-lasting and beautiful finish. Whether you need interior painting, exterior painting, or any other painting-related service, Scott's Interior & Exterior is here to help.",
+        "localContext": "Shively is a close-knit community with a rich history and a strong sense of local pride. We are proud to be a part of the Shively community and to contribute to its beauty.",
+        "nearbyAreas": [
+          "Louisville",
+          "Valley Station",
+          "Pleasure Ridge Park"
+        ]
+      },
+      {
+        "city": "St. Matthews",
+        "slug": "st-matthews-ky",
+        "state": "KY",
+        "content": "Scott's Interior & Exterior proudly serves the St. Matthews area of Louisville, KY, offering professional painting services tailored to the unique character of this vibrant community. From updating the interiors of charming bungalows to refreshing the exteriors of established homes, we bring expertise and attention to detail to every project.\n\nWe understand the importance of quality craftsmanship and use only premium paints and materials to ensure lasting beauty and durability. Our team is committed to providing exceptional customer service, from initial consultation to final walkthrough. Let Scott's Interior & Exterior transform your St. Matthews property with our expert painting services.",
+        "localContext": "St. Matthews is known for its upscale shopping, dining, and tree-lined streets. We are dedicated to enhancing the beauty of this desirable neighborhood through our professional painting services.",
+        "nearbyAreas": [
+          "Louisville",
+          "Lyndon",
+          "Indian Hills"
+        ]
+      },
+      {
+        "city": "Lyndon",
+        "slug": "lyndon-ky",
+        "state": "KY",
+        "content": "Scott's Interior & Exterior extends its professional painting services to the Lyndon, KY area. We understand the specific needs of homes and businesses in Lyndon, and we are committed to providing high-quality workmanship and exceptional customer service.\n\nWe offer a full range of painting services, including interior and exterior painting, drywall repair, and pressure washing. Our experienced painters use only the best paints and materials to ensure a beautiful and long-lasting finish. Let Scott's Interior & Exterior help you enhance the beauty and value of your Lyndon property.",
+        "localContext": "Lyndon is a family-friendly community with a strong sense of neighborhood pride. We are pleased to offer our painting services to the residents and businesses of Lyndon.",
+        "nearbyAreas": [
+          "Louisville",
+          "St. Matthews",
+          "Anchorage"
+        ]
+      },
+      {
+        "city": "Middletown",
+        "slug": "middletown-ky",
+        "state": "KY",
+        "content": "Scott's Interior & Exterior is a trusted provider of painting services in Middletown, Kentucky. We understand the diverse architectural styles found in Middletown, and we are equipped to handle any painting project, from historic homes to modern residences. Our goal is to provide exceptional results that enhance the beauty and value of your property.\n\nWe offer a comprehensive range of painting services, including color consultation, surface preparation, and meticulous application of premium paints. Our team of skilled painters is committed to exceeding your expectations. Contact Scott's Interior & Exterior today for a free estimate.",
+        "localContext": "Middletown is a growing community with a mix of residential, commercial, and industrial areas. We are committed to providing top-quality painting services to meet the needs of this dynamic area.",
+        "nearbyAreas": [
+          "Louisville",
+          "Jeffersontown",
+          "Anchorage"
+        ]
+      },
+      {
+        "city": "Anchorage",
+        "slug": "anchorage-ky",
+        "state": "KY",
+        "content": "Scott's Interior & Exterior is pleased to offer its expert painting services to the discerning residents of Anchorage, Kentucky. We understand the unique character and high standards of this prestigious community, and we are committed to delivering exceptional results that meet and exceed your expectations.\n\nOur team of skilled painters takes pride in our attention to detail and our commitment to using only the highest quality paints and materials. We offer a full range of painting services, including interior and exterior painting, custom finishes, and color consultation. Let Scott's Interior & Exterior transform your Anchorage home into a masterpiece.",
+        "localContext": "Anchorage is known for its beautiful estates, lush landscapes, and commitment to preserving its unique character. We are dedicated to providing painting services that enhance the beauty of this exceptional community.",
+        "nearbyAreas": [
+          "Louisville",
+          "Middletown",
+          "Lyndon"
+        ]
+      },
+      {
+        "city": "Valley Station",
+        "slug": "valley-station-ky",
+        "state": "KY",
+        "content": "Scott's Interior & Exterior offers reliable and affordable painting services to the Valley Station, KY community. We're experienced in transforming homes and businesses with fresh coats of paint, tailored to the specific needs of each property. Whether it's a full exterior repaint or a simple interior refresh, we're here to help.\n\nWe pride ourselves on using high-quality paints and materials, ensuring a long-lasting and beautiful finish. Our team is dedicated to providing excellent customer service and meticulous workmanship. Contact us today for a free estimate and let us bring new life to your Valley Station property.",
+        "localContext": "Valley Station is a vibrant area with a strong sense of community, located near the Ohio River. We are happy to provide our painting services to this growing area.",
+        "nearbyAreas": [
+          "Louisville",
+          "Shively",
+          "Pleasure Ridge Park"
+        ]
+      },
+      {
+        "city": "Buechel",
+        "slug": "buechel-ky",
+        "state": "KY",
+        "content": "Scott's Interior & Exterior is committed to serving the Buechel community with top-quality painting services. We understand the diverse styles of homes and businesses in Buechel and tailor our approach to meet each customer's unique needs. Our goal is to provide a seamless and satisfying painting experience, from start to finish.\n\nWe use only premium paints and materials to ensure a durable and beautiful finish that will enhance the look and value of your property. Whether you need interior painting, exterior painting, or a complete color makeover, Scott's Interior & Exterior is the right choice.",
+        "localContext": "Buechel is a diverse and growing community with a mix of residential and commercial properties. We are proud to offer our painting services to the residents and business owners of Buechel.",
+        "nearbyAreas": [
+          "Louisville",
+          "Jeffersontown",
+          "Fern Creek"
+        ]
+      },
+      {
+        "city": "Fern Creek",
+        "slug": "fern-creek-ky",
+        "state": "KY",
+        "content": "Scott's Interior & Exterior provides professional painting services to the Fern Creek area, understanding the specific needs of its residents. We are dedicated to transforming homes and businesses with precision and care, ensuring a finished product that exceeds expectations. Our commitment to quality and customer satisfaction makes us the preferred choice for painting projects in Fern Creek.\n\nWe offer a wide range of services, including interior and exterior painting, drywall repair, and color consultation. Our experienced team uses only the best paints and materials to guarantee a long-lasting and beautiful finish. Contact us today for a free quote and let us bring your vision to life.",
+        "localContext": "Fern Creek is a welcoming suburban community known for its family-friendly atmosphere and well-maintained homes. We are delighted to contribute to the beauty and appeal of this area through our expert painting services.",
+        "nearbyAreas": [
+          "Louisville",
+          "Buechel",
+          "Highview"
+        ]
+      }
+    ],
+    "reviews": [
+      {
+        "name": "Sarah M.",
+        "rating": 5,
+        "service": "Interior Painting",
+        "text": "Scott's Interior & Exterior did an amazing job painting the interior of our home in St. Matthews. The crew was professional, efficient, and paid close attention to detail. Our walls look fantastic!",
+        "date": "2024-07-15"
+      },
+      {
+        "name": "John B.",
+        "rating": 4,
+        "service": "Exterior Painting",
+        "text": "We hired Scott's to paint the exterior of our house in the Highlands. They did a great job prepping the surfaces and the paint job looks excellent. There were a couple of minor touch-ups needed, but they were quick to address them.",
+        "date": "2024-08-02"
+      },
+      {
+        "name": "Emily K.",
+        "rating": 5,
+        "service": "Cabinet Painting",
+        "text": "Scott's team transformed our outdated kitchen cabinets with a fresh coat of paint. They look brand new! The whole process was smooth and professional.",
+        "date": "2024-09-10"
+      },
+      {
+        "name": "David L.",
+        "rating": 5,
+        "service": "Deck Staining & Sealing",
+        "text": "Scott's Interior & Exterior did a fantastic job staining and sealing our deck. It looks beautiful and is now protected from the elements. Highly recommend!",
+        "date": "2024-10-27"
+      },
+      {
+        "name": "Jessica P.",
+        "rating": 4,
+        "service": "Drywall Repair",
+        "text": "We had some water damage in our basement, and Scott's team did a great job repairing the drywall. The repairs were seamless and you can't even tell there was any damage.",
+        "date": "2024-11-18"
+      },
+      {
+        "name": "Michael S.",
+        "rating": 5,
+        "service": "Interior Painting",
+        "text": "Scott's Interior & Exterior painted my living room and dining room. They were very professional, arrived on time, and did an excellent job. I would definitely hire them again.",
+        "date": "2024-12-05"
+      }
+    ],
+    "seo": {
+      "homepage": {
+        "title": "Scott's Painting: Louisville's Best Painters",
+        "description": "Top-rated painting services in Louisville, KY. Interior, exterior, cabinet painting & more. Free quotes! Call +15023677881"
+      },
+      "about": {
+        "title": "About Scott's Painting: Louisville, KY",
+        "description": "Learn about Scott's Interior & Exterior, a trusted painting contractor in Louisville, KY. Quality, reliability, and customer satisfaction."
+      },
+      "services": {
+        "title": "Painting Services: Louisville, KY | Scott's Painting",
+        "description": "Comprehensive painting services in Louisville, KY. Interior, exterior, cabinet painting, drywall repair & more. Get a free quote!"
+      },
+      "contact": {
+        "title": "Contact Scott's Painting: Louisville, KY",
+        "description": "Contact Scott's Interior & Exterior for a free quote on your next painting project in Louisville, KY. Call +15023677881 today!"
+      },
+      "reviews": {
+        "title": "Scott's Painting Reviews: Louisville, KY",
+        "description": "Read reviews from satisfied customers of Scott's Interior & Exterior in Louisville, KY. Quality painting services you can trust."
+      },
+      "service-areas": {
+        "title": "Service Areas | Scott's Painting Louisville KY",
+        "description": "Scott's Interior & Exterior provides house painting services in Louisville KY and surrounding communities. Call today for a free quote."
+      }
+    },
+    "companyInfo": {
+      "yearsInBusiness": 12,
+      "projectsCompleted": "800+",
+      "satisfaction": "97%",
+      "teamSize": "20+"
+    }
+  },
+  "images": {
+    "hero": "/images/hero.webp",
+    "heroResponsive": {
+      "src": "/images/hero.webp",
+      "srcset": "/images/hero-400w.webp 400w, /images/hero-800w.webp 800w, /images/hero-1200w.webp 1200w, /images/hero.webp 1376w",
+      "sizes": "100vw",
+      "width": 1376,
+      "height": 768
+    },
+    "about": "/images/about.webp",
+    "aboutResponsive": {
+      "src": "/images/about.webp",
+      "srcset": "/images/about-400w.webp 400w, /images/about-800w.webp 800w, /images/about-1200w.webp 1200w, /images/about.webp 1200w",
+      "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+      "width": 1200,
+      "height": 896
+    },
+    "services": {
+      "interior-painting": "/images/service-interior-painting.webp",
+      "exterior-painting": "/images/service-exterior-painting.webp",
+      "cabinet-painting": "/images/service-cabinet-painting.webp",
+      "deck-staining-sealing": "/images/service-deck-staining-sealing.webp",
+      "drywall-repair": "/images/service-drywall-repair.webp",
+      "wallpaper-removal": "/images/service-wallpaper-removal.webp"
+    },
+    "servicesResponsive": {
+      "interior-painting": {
+        "src": "/images/service-interior-painting.webp",
+        "srcset": "/images/service-interior-painting-400w.webp 400w, /images/service-interior-painting-800w.webp 800w, /images/service-interior-painting-1200w.webp 1200w, /images/service-interior-painting.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "exterior-painting": {
+        "src": "/images/service-exterior-painting.webp",
+        "srcset": "/images/service-exterior-painting-400w.webp 400w, /images/service-exterior-painting-800w.webp 800w, /images/service-exterior-painting-1200w.webp 1200w, /images/service-exterior-painting.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "cabinet-painting": {
+        "src": "/images/service-cabinet-painting.webp",
+        "srcset": "/images/service-cabinet-painting-400w.webp 400w, /images/service-cabinet-painting-800w.webp 800w, /images/service-cabinet-painting-1200w.webp 1200w, /images/service-cabinet-painting.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "deck-staining-sealing": {
+        "src": "/images/service-deck-staining-sealing.webp",
+        "srcset": "/images/service-deck-staining-sealing-400w.webp 400w, /images/service-deck-staining-sealing-800w.webp 800w, /images/service-deck-staining-sealing-1200w.webp 1200w, /images/service-deck-staining-sealing.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "drywall-repair": {
+        "src": "/images/service-drywall-repair.webp",
+        "srcset": "/images/service-drywall-repair-400w.webp 400w, /images/service-drywall-repair-800w.webp 800w, /images/service-drywall-repair-1200w.webp 1200w, /images/service-drywall-repair.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "wallpaper-removal": {
+        "src": "/images/service-wallpaper-removal.webp",
+        "srcset": "/images/service-wallpaper-removal-400w.webp 400w, /images/service-wallpaper-removal-800w.webp 800w, /images/service-wallpaper-removal-1200w.webp 1200w, /images/service-wallpaper-removal.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    },
+    "gallery": [
+      "/images/gallery-0.webp",
+      "/images/gallery-1.webp"
+    ],
+    "galleryResponsive": [
+      {
+        "src": "/images/gallery-0.webp",
+        "srcset": "/images/gallery-0-400w.webp 400w, /images/gallery-0-800w.webp 800w, /images/gallery-0-1200w.webp 1200w, /images/gallery-0.webp 1200w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1200,
+        "height": 896
+      },
+      {
+        "src": "/images/gallery-1.webp",
+        "srcset": "/images/gallery-1-400w.webp 400w, /images/gallery-1-800w.webp 800w, /images/gallery-1-1200w.webp 1200w, /images/gallery-1.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    ]
+  }
+}
